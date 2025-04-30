@@ -7,17 +7,17 @@ export default {
   category: '导航',
   props: [
     {
-      name: 'disabled',
-      title: '是否禁用',
-      setter: 'BoolSetter',
-      defaultValue: true,
-      supportVariable: true,
-    },
-    {
       title: '基础',
       display: 'block',
       type: 'group',
       items: [
+        {
+          name: 'disabled',
+          title: '是否禁用',
+          setter: 'BoolSetter',
+          defaultValue: true,
+          supportVariable: true,
+        },
         {
           name: 'separator',
           title: { label: '分隔符自定义', tip: '分隔符自定义' },
